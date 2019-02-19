@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <display-name>SPMOV555</display-name>
+  <servlet>
+    <servlet-name>yourServlet</servlet-name>
+    <servlet-class>Controller.MovieController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>yourServlet</servlet-name>
+    <url-pattern>/MovieServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>Controller.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/LoginServlet1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>castServlet1</servlet-name>
+    <servlet-class>Controller.CastController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>castServlet1</servlet-name>
+    <url-pattern>/CastServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>MovieDetailController</servlet-name>
+    <servlet-class>Controller.MovieDetailController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MovieDetailController</servlet-name>
+    <url-pattern>/MDetailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Genre</servlet-name>
+    <servlet-class>Controller.GenreController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Genre</servlet-name>
+    <url-pattern>/genre</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Page</servlet-name>
+    <servlet-class>Controller.indexPage</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Page</servlet-name>
+    <url-pattern>/index</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Poster</servlet-name>
+    <servlet-class>Controller.PosterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Poster</servlet-name>
+    <url-pattern>/poster</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Banner</servlet-name>
+    <servlet-class>Controller.BannerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Banner</servlet-name>
+    <url-pattern>/banner</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>MovieDetails</servlet-name>
+    <jsp-file>/MovieDetail.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MovieDetails</servlet-name>
+    <url-pattern>/movies</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>searchGenre</servlet-name>
+    <servlet-class>Controller.SearchController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>searchGenre</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ReviewServlet</servlet-name>
+    <servlet-class>Controller.ReviewController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ReviewServlet</servlet-name>
+    <url-pattern>/review</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ThreatreServlet</servlet-name>
+    <servlet-class>Controller.ThreatreController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ThreatreServlet</servlet-name>
+    <url-pattern>/theatre</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>MemberServlet</servlet-name>
+    <servlet-class>Controller.MemberController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MemberServlet</servlet-name>
+    <url-pattern>/member</url-pattern>
+  </servlet-mapping>
+  <!-- xy added  -->
+
+
+<servlet>
+    <servlet-name>InstantbookingService</servlet-name>
+    <servlet-class>Controller.InstantBookingController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InstantbookingService</servlet-name>
+    <url-pattern>/instantbooking</url-pattern>
+  </servlet-mapping>
+
+
+
+
+
+  <servlet>
+  <servlet-name>CustomerHistory</servlet-name>
+    <servlet-class>Controller.HistoryController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CustomerHistory</servlet-name>
+    <url-pattern>/History</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>Ticketpayment</servlet-name>
+    <servlet-class>Controller.PaymentController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ticketpayment</servlet-name>
+    <url-pattern>/payment</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>CustomerLogout</servlet-name>
+    <servlet-class>Controller.LogoutController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CustomerLogout</servlet-name>
+    <url-pattern>/as1235fdf44f44e2dfsdfdrhykyjtrgb</url-pattern>
+  </servlet-mapping>
+
+  
+  
+   <servlet>
+    <servlet-name>CartDetail</servlet-name>
+    <servlet-class>Controller.CartController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CartDetail</servlet-name>
+    <url-pattern>/cart</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>BookingMovies</servlet-name>
+    <servlet-class>Controller.BookMovieController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookingMovies</servlet-name>
+    <url-pattern>/bookMovie</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>CustomerController</servlet-name>
+    <servlet-class>Controller.CustomerController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CustomerController</servlet-name>
+    <url-pattern>/CustomerLogin</url-pattern>
+  </servlet-mapping>
+  
+   <context-param>
+    <param-name>authtoken</param-name>
+    <param-value>An5ns1Kso7MWUdW4ErQKJJJ4qi4-AO50Tp.c9zZN5w08WrED6badfVoj</param-value>
+  </context-param>
+  <context-param>
+    <param-name>posturl</param-name>
+    <param-value>https://www.sandbox.paypal.com/cgi-bin/websrc</param-value>
+  </context-param>
+  <context-param>
+    <param-name>business</param-name>
+    <param-value>xiyangLXY-facilitator@gmail.com</param-value>
+  </context-param>
+  <context-param>
+    <param-name>returnurl</param-name>
+    <param-value>http://localhost:8080/SPMOV/index.jsp</param-value>
+  </context-param>
+
+  
+  
+  
+</web-app>
