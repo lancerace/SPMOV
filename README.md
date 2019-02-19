@@ -2,8 +2,8 @@
 Movie App project
 
 
-###Technology
+### Technology
 
 
-####Backend : Java with MVC framework
+#### Backend : Java with MVC framework
 
